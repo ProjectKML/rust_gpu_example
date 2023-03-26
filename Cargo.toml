@@ -1,0 +1,9 @@
+[package]
+name = "rust_gpu_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+spirv-builder = { git = "https://github.com/projectkml/rust-gpu", branch = "ext-mesh-shader" }
